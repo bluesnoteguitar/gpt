@@ -1,0 +1,20 @@
+{
+  "name": "chatgpt-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude talk to ChatGPT",
+  "main": "server.mjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "type": "module",
+  "bin": {
+    "chatgpt-mcp": "server.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
